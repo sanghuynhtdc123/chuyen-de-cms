@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+  --blueColor: #0de9df;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #858585;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+@keyframes grow_up {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.module-16 {
+  background-color: #FAFAFA;
+  height: 326px;
+  position: relative;
+}
+.module-16 .wrap {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: translateY(-50%);
+}
+.module-16 .wrap .text_advisor {
+  max-width: 720px;
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.module-16 .wrap .advisor {
+  text-align: center;
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  .module-16 .wrap {
+    left: 0;
+    width: 100%;
+  }
+  .module-16 .wrap .text_advisor {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 739px) {
+  .module-16 .wrap {
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+  }
+  .module-16 .wrap .text_advisor {
+    font-size: 1.3em;
+  }
+}
