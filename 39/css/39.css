@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+  --blueColor: #0de9df;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #858585;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.module-4 {
+  background: #11e2d8;
+  height: 168px;
+}
+.module-4__row {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  max-width: 100%;
+  grid-column-gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+.module-4__row-item {
+  max-width: 95%;
+}
+.module-4__row-item-images {
+  max-width: 100%;
+  position: relative;
+}
+.module-4__row-item-img {
+  max-width: 100%;
+}
+.module-4__row-item-content {
+  padding: 8px 6% 133px 4%;
+}
+.module-4__row-item-heading {
+  color: var(--blackColor);
+  font-size: 2rem;
+  font-weight: 500;
+}
+.module-4__row-item-desc {
+  display: inline-block;
+  color: var(--grayColor);
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.module-4__row-item-weather {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+.module-4__row-item-weather .boderexam1 {
+  margin-left: 44px;
+  font-size: 44px;
+  margin-top: 84px;
+  color: white;
+}
+.module-4__row-item-weather .anh1 {
+  padding-left: 651px;
+  color: white;
+  margin-top: 82px;
+  font-size: 17px;
+}
+.module-4__row-item-anchor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1024px) {
+  .module-4 {
+    max-width: 100%;
+    padding: 60px;
+  }
+  .module-4__row {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .module-4__row-item-content {
+    padding: 30px 0 30px;
+  }
+}
