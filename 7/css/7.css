@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+  --blueColor: #0de9df;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #858585;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.module-7__item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: var(--blueColor);
+  overflow: hidden;
+  position: relative;
+}
+.module-7__item-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.module-7__item-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.module-7__item-info {
+  padding: 40px 50px 20px 30px;
+  color: var(--whiteColor);
+}
+.module-7__item-date {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.module-7__item-title {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+.module-7__item-description {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.module-7__item-address {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.module-7__item-address i {
+  padding-right: 4px;
+}
+.module-7__item--black {
+  background-color: #29282d;
+}
+.module-7__item--yellow {
+  background-color: #ffb434;
+}
+.module-7__item--gray {
+  background-color: #222222;
+}
+.module-7__item:hover  .module-7__item-img {
+  transform: scale(1.1);
+  transition: transform 0.7s;
+}
+.module-7__row .row.sm-gutter .col {
+  padding-left: 0;
+  padding-right: 0;
+}

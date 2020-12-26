@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+  --blueColor: #0de9df;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #858585;
+  --max-width-item: 450px;
+  --width-day: 200px;
+  --width-temp: 68px;
+  --width-fog: 118px;
+  --width-name: 69px;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+@keyframes grow_up {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.module-15__row {
+  margin: 50px 0;
+}
+.module-15__item {
+  margin: 70px 0;
+  max-width: var(--max-width-item);
+}
+.module-15__item-heading {
+  font-size: 2rem;
+  zoom: 2;
+  font-weight: 550;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.module-15__item-desc {
+  color: var(--grayColor);
+  font-size: 1.8rem;
+}
+.module-15__item-link {
+  display: block;
+  padding-top: 20px;
+  text-decoration: none;
+  color: var(--blueColor);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.module-15__item-link:hover {
+  text-decoration: underline;
+}
+.module-15__item-weather {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  border-bottom: 1px dotted var(--grayColor);
+}
+.module-15__item-weather-day {
+  min-width: var(--width-day);
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.module-15__item-weather-temp {
+  --width-temp: 54px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  min-width: var(--width-temp);
+  font-size: 1.6rem;
+  color: #ffbc49;
+}
+.module-15__item-weather-temp-img {
+  width: 30%;
+  padding-left: 4px;
+}
+.module-15__item-weather-fog {
+  min-width: var(--width-fog);
+}
+.module-15__item-weather-name {
+  font-size: 1.6rem;
+  font-weight: bold;
+  min-width: var(--width-name);
+  text-align: center;
+}
+.module-15__item-weather--no-border {
+  border-bottom: none;
+}
+.module-15__item-images {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.module-15__item-images-block {
+  width: 100%;
+}
+.module-15__item-images-block-locate {
+  position: relative;
+}
+.module-15__item-images-img {
+  max-width: 100%;
+  margin: 5px 0;
+}
+.module-15__item-images-img--margin-top {
+  margin-top: 0;
+}
+.module-15__item-images-img--margin-bottom {
+  margin-bottom: 0;
+}
+.module-15__item-block-img {
+  position: absolute;
+  top: 50%;
+  right: 2px;
+  transform: translateY(-50%);
+}
+.module-15__item-block-content {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: var(--whiteColor);
+}
+.module-15__item-block-content-heading {
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  margin: 0 0 5px;
+}
+.module-15__item-block-content-desc {
+  display: block;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+@media (max-width: 1024px) {
+  .module-15__item {
+    justify-content: center;
+  }
+  .module-15__item-heading {
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+  }
+  .module-15__item-images-img {
+    margin: 5px;
+  }
+  .module-15__item-block-img {
+    right: 0;
+  }
+  .module-15__item-block-content-heading {
+    font-size: 2rem;
+  }
+  .module-15__item-block-content-desc {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  .module-15__item {
+    justify-content: center;
+  }
+  .module-15__item-heading {
+    max-width: 100px;
+    letter-spacing: 1px;
+  }
+  .module-15__item-images-img {
+    margin: 5px;
+  }
+  .module-15__item-block-img {
+    right: 30px;
+  }
+}
+@media (max-width: 739px) {
+  .module-15__item {
+    max-width: 350px;
+    justify-content: center;
+  }
+  .module-15__item-heading {
+    letter-spacing: 1px;
+  }
+  .module-15__item-images-img {
+    margin: 5px;
+  }
+  .module-15__item-block-img {
+    right: 30px;
+  }
+  .module-15__item-weather-day {
+    --width-day: 120px;
+    font-size: 1.4rem;
+  }
+  .module-15__item-weather-fog {
+    --width-fog: 94px;
+    font-size: 1.4rem;
+  }
+  .module-15__item-weather-name {
+    text-align: right;
+  }
+}

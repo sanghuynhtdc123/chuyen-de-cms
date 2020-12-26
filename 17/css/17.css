@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+  --blueColor: #0de9df;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #858585;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+@keyframes grow_up {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.module-18 {
+  background-color: var(--blueColor);
+}
+.module-18 .grid.wide {
+  max-width: 100%;
+  margin: 0 -5px;
+}
+.module-18__item-images {
+  display: flex;
+  max-width: 100%;
+}
+.module-18__item-images-link {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.module-18__item-images-link:hover .module-18__item-images-icon {
+  background-color: var(--blueColor);
+  animation: grow_up linear 1s;
+}
+.module-18__item-images-link:hover .module-18__item-images-icon {
+  opacity: 1;
+}
+.module-18__item-images-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.module-18__item-images-icon {
+  font-size: 1.6rem;
+  padding: 5px;
+  color: var(--whiteColor);
+  opacity: 0;
+  zoom: 3;
+}
+.module-18__item-img {
+  max-width: 100%;
+}
+.module-18__row .row.sm-gutter .col {
+  padding: 0;
+}
+@media (max-width: 1024px) {
+  .module-18 .grid.wide {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  .module-18__row .row.sm-gutter .col {
+    padding: 0;
+  }
+  .module-18__item.module-18__item--disable {
+    display: none;
+  }
+}
+@media (max-width: 1239px) and (min-width: 1024px) {
+  .grid.wide .row.sm-gutter .col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 739px) {
+  .module-18__item.module-18__item--disable-phone {
+    display: none;
+  }
+}

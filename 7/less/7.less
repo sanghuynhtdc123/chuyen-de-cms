@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+    --blueColor: #0de9df;
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --grayColor: #858585;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.module-7 {
+    &__item {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        background-color: var(--blueColor);
+        overflow: hidden;
+        position: relative;
+        &-img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        
+        &-link {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        &-info {
+            padding: 40px 50px 20px 30px;
+            color: var(--whiteColor);
+        }
+        &-date {
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+        &-title {
+            font-size: 2rem;
+            letter-spacing: 2px;
+        }
+        &-description {
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+        &-address {
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        &-address i {
+            padding-right: 4px;
+        }
+        &--black {
+            background-color:#29282d;
+        }
+        &--yellow {
+            background-color: rgb(255,180,52);
+        }
+        &--gray {
+            background-color: #222222;
+        }
+    }
+    &__item:hover  &__item-img {
+        transform: scale(1.1);
+        transition: transform 0.7s;
+    }
+}
+.module-7__row .row.sm-gutter .col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* Mobile & Tablet */
+@media (max-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+
+/* Mobile */
+@media (max-width: 739px) {
+
+}
+
+@media (min-width: 320px) {
+
+}

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+  --blueColor: #0de9df;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #858585;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+@keyframes grow_up {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.module-11__item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.module-11__item--img {
+  max-width: 100%;
+  height: 500px;
+  max-height: 100%;
+  background-image: url('../images/h1-map-rev-graphic.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  object-fit: contain;
+}
+.module-11__item--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.module-11__item-heading {
+  font-size: 2rem;
+  zoom: 2;
+  color: var(--blackColor);
+}
+.module-11__item-desc {
+  font-size: 1.8rem;
+  color: #666;
+  font-weight: 500;
+}
+.module-11__item-capital {
+  display: block;
+}
+.module-11__item-capital span {
+  display: block;
+  padding: 8px 0;
+  color: var(--blackColor);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.module-11__item-text {
+  color: var(--blackColor);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-left: 10px;
+  cursor: default;
+}
+.module-11__item-images {
+  display: flex;
+  align-items: center;
+}
+.module-11__item-images:first-child {
+  position: absolute;
+  top: 24%;
+  left: 36%;
+}
+.module-11__item-images:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 12%;
+}
+.module-11__item-images:nth-child(2)--position {
+  position: absolute;
+}
+.module-11__item-images:nth-child(2) .module-11__item-img-line {
+  position: absolute;
+  left: 32px;
+  top: 115%;
+  transform: rotate(83deg);
+}
+.module-11__item-images:nth-child(2) .module-11__item-img-cricle {
+  position: absolute;
+  left: 114%;
+  top: 180%;
+}
+.module-11__item-images:nth-child(3) {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+}
+.module-11__item-images:nth-child(3)--position {
+  position: absolute;
+}
+.module-11__item-images:nth-child(3) .module-11__item-img-line {
+  position: absolute;
+  transform: rotate(5deg);
+  left: 48%;
+  top: -286%;
+}
+.module-11__item-images:nth-child(3) .module-11__item-img-cricle {
+  position: absolute;
+  left: 178%;
+  top: -332%;
+}
+.module-11__item-images:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.module-11__item-images:last-child {
+  position: absolute;
+  bottom: 0;
+  right: calc(8%);
+}
+.module-11__item-images:last-child--position {
+  position: absolute;
+}
+.module-11__item-images:last-child .module-11__item-img-line {
+  position: absolute;
+  transform: rotate(-38deg);
+  left: -46%;
+  top: -410%;
+}
+.module-11__item-images:last-child .module-11__item-img-cricle {
+  position: absolute;
+  left: 0;
+  top: -550%;
+}
+.module-11__item-img {
+  position: relative;
+  padding: 8px;
+}
+.module-11__item-img-line {
+  position: absolute;
+  top: -104px;
+  left: 48%;
+  transform: rotate(30deg);
+  display: none;
+}
+.module-11__item-img-cricle {
+  position: absolute;
+  right: -216%;
+  top: -150%;
+  display: none;
+}
+.module-11__item-img:hover {
+  background-image: url('../images/h1-map-rev-no-active.png');
+  border-radius: 50%;
+}
+.module-11__item-images--position:hover .module-11__item-img-line,
+.module-11__item-images--position:hover .module-11__item-img-cricle {
+  display: block;
+}
+.module-11__item-btn {
+  display: inline-block;
+  margin-top: 40px;
+  border: 1px solid var(--blackColor);
+  padding: 20px 40px;
+  color: var(--blackColor);
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.module-11__item-btn:hover {
+  color: var(--whiteColor);
+  cursor: pointer;
+  background-color: var(--blackColor);
+}
+@media (max-width: 1024px) {
+  .module-11__row .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .module-11__item-list {
+    text-align: center;
+  }
+  .module-11__item-capital {
+    display: none;
+  }
+}
