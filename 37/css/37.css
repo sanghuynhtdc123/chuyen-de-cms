@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+  --blueColor: #0de9df;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #858585;
+}
+.modum38 {
+  height: 400px;
+  background-image: url(../images/p1-img-4-3.jpg);
+  background-size: cover;
+}
+.modum38 .p-modum38 {
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  margin-top: -8px;
+}
+.modum38 .pp-modum38 {
+  color: white;
+  font-size: 20px;
+  margin-top: -24px;
+}
+.modum38 .h-modum38 {
+  font-family: Mr Dafoe;
+  font-size: 140px;
+  line-height: 55px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+.modum38 .h1-modum38 {
+  color: #ffffff;
+  font-size: 52px;
+}
+.modum38 .modum-38 {
+  padding-top: 121px;
+  padding-left: 100px;
+  display: flex;
+}
