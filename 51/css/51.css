@@ -18,13 +18,13 @@ body {
   margin: 0;
   padding: 0;
 }
-.module-4 {
+.module-51 {
   width: 1100px;
   max-width: 95%;
   height: 256px;
   margin: 34px auto 0;
 }
-.module-4__row {
+.module-51__row {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   max-width: 100%;
@@ -32,38 +32,38 @@ body {
   padding: 0;
   margin: 0;
 }
-.module-4__row-item {
+.module-51__row-item {
   max-width: 90%;
 }
-.module-4__row-item-images {
+.module-51__row-item-images {
   max-width: 90%;
   position: relative;
 }
-.module-4__row-item-img {
+.module-51__row-item-img {
   max-width: 90%;
 }
-.module-4__row-item-content {
+.module-51__row-item-content {
   padding: 70px -1% 133px 10%;
 }
-.module-4__row-item-heading {
+.module-51__row-item-heading {
   color: var(--blackColor);
   font-size: 3.6rem;
   font-weight: 500;
 }
-.module-4__row-item-desc {
+.module-51__row-item-desc {
   display: inline-block;
   color: var(--grayColor);
   font-size: 1.6rem;
   font-weight: 500;
   margin-top: 8px;
 }
-.module-4__row-item-btn .type-49 .div-message {
+.module-51__row-item-btn .type-49 .div-message {
   position: relative;
 }
-.module-4__row-item-btn .type-49 .div-message .contact {
+.module-51__row-item-btn .type-49 .div-message .contact {
   margin-top: 61px;
 }
-.module-4__row-item-btn .type-49 .div-message .contact button {
+.module-51__row-item-btn .type-49 .div-message .contact button {
   margin-top: 35px;
   background-color: #fff;
   padding: 14px 51px 11px 51px;
@@ -71,15 +71,15 @@ body {
   border: 2px solid #222;
   transition: color 0.2s ease-in-out 0.2s, background-color 0.2s ease-in-out;
 }
-.module-4__row-item-btn .type-49 .div-message .contact button .btn_text {
+.module-51__row-item-btn .type-49 .div-message .contact button .btn_text {
   display: block;
   position: relative;
   z-index: 1;
   color: #000;
-  font-size: 8px;
-  font-weight: 500;
+  font-size: 10px;
+  font-weight: 600;
 }
-.module-4__row-item-btn .type-49 .div-message .contact button .btn_hover {
+.module-51__row-item-btn .type-49 .div-message .contact button .btn_hover {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -91,13 +91,13 @@ body {
   transition: -webkit-transform 1s cubic-bezier(0.25,0.46,0.45,0.94);
   transition: transform 1s cubic-bezier(0.25,0.46,0.45,0.94);
 }
-.module-4__row-item-btn .type-49 .div-message .contact button:hover .btn_hover {
+.module-51__row-item-btn .type-49 .div-message .contact button:hover .btn_hover {
   transform: translateY(35%);
 }
-.module-4__row-item-btn .type-49 .div-message .contact button:hover .btn_text {
+.module-51__row-item-btn .type-49 .div-message .contact button:hover .btn_text {
   color: #fff;
 }
-.module-4__row-item-btn .type-49 .div-message .contact .div-btn {
+.module-51__row-item-btn .type-49 .div-message .contact .div-btn {
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -106,7 +106,7 @@ body {
   font-size: 7px;
   line-height: 5em;
   letter-spacing: 0.2em;
-  width: 180px;
+  width: 250px;
   font-weight: 700;
   outline: 0;
   box-sizing: border-box;
@@ -114,12 +114,12 @@ body {
   padding: 13px 32px 9px 35px;
   cursor: pointer;
 }
-.module-4__row-item-btn:hover {
+.module-51__row-item-btn:hover {
   color: var(--whiteColor);
   cursor: pointer;
   background-color: var(--blackColor);
 }
-.module-4__row-item-anchor {
+.module-51__row-item-anchor {
   position: absolute;
   top: 0;
   right: 0;
@@ -129,7 +129,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-.module-4__row-item-link {
+.module-51__row-item-link {
   position: absolute;
   width: 80px;
   height: 80px;
@@ -137,7 +137,7 @@ body {
   border-radius: 50%;
   text-decoration: none;
 }
-.module-4__row-item-link::before {
+.module-51__row-item-link::before {
   position: absolute;
   content: "";
   border-width: 14px 20px;
@@ -147,39 +147,39 @@ body {
   transform: translateY(-50%);
   left: 44%;
 }
-.module-4__row-item-link:hover {
+.module-51__row-item-link:hover {
   transform: scale(1.1);
   text-decoration: none;
 }
-.module-4__row-item body {
+.module-51__row-item body {
   font-family: Arial, Helvetica, sans-serif;
 }
-.module-4__row-item * {
+.module-51__row-item * {
   box-sizing: border-box;
 }
-.module-4__row-item body {
+.module-51__row-item body {
   font-family: Arial, Helvetica, sans-serif;
 }
-.module-4__row-item * {
+.module-51__row-item * {
   box-sizing: border-box;
 }
-.module-4__row-item input[type=text],
-.module-4__row-item input[type=password] {
+.module-51__row-item input[type=text],
+.module-51__row-item input[type=password] {
   width: 100%;
   margin: 5px 0 -22px 0;
   display: inline-block;
   border: none;
 }
-.module-4__row-item input[type=text]:focus,
-.module-4__row-item input[type=password]:focus {
+.module-51__row-item input[type=text]:focus,
+.module-51__row-item input[type=password]:focus {
   border: none;
   outline: none;
 }
-.module-4__row-item hr {
+.module-51__row-item hr {
   border: 1px solid #111111;
   margin-bottom: 25px;
 }
-.module-4__row-item button {
+.module-51__row-item button {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -189,42 +189,46 @@ body {
   width: 100%;
   opacity: 0.9;
 }
-.module-4__row-item button:hover {
+.module-51__row-item button:hover {
   opacity: 1;
 }
-.module-4__row-item .cancelbtn {
+.module-51__row-item .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
 }
-.module-4__row-item .cancelbtn,
-.module-4__row-item .signupbtn {
+.module-51__row-item .cancelbtn,
+.module-51__row-item .signupbtn {
   float: left;
   width: 50%;
 }
-.module-4__row-item .container {
+.module-51__row-item .container {
   padding: 16px;
   margin-left: -16px;
 }
-.module-4__row-item .clearfix::after {
+.module-51__row-item .container input {
+  border-bottom: 1.5px solid #000;
+  margin-bottom: 20px;
+}
+.module-51__row-item .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 @media screen and (max-width: 300px) {
-  .module-4__row-item .cancelbtn,
-  .module-4__row-item .signupbtn {
+  .module-51__row-item .cancelbtn,
+  .module-51__row-item .signupbtn {
     width: 100%;
   }
 }
 @media (max-width: 1024px) {
-  .module-4 {
+  .module-51 {
     max-width: 100%;
     padding: 60px;
   }
-  .module-4__row {
+  .module-51__row {
     grid-template-columns: repeat(1,1fr);
   }
-  .module-4__row-item-content {
+  .module-51__row-item-content {
     padding: 30px 0 30px;
   }
 }
