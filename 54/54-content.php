@@ -11,14 +11,14 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
- <div class="modum38">
- <div class="modum-38">
-<h1 class ="h-modum38">
-UPCOMING EVENTS
-</h1>
-<br>
- 
+<div class="module_54">
+    <div class="module-54">
+        <h1 class="h-module-54">
+            UPCOMING EVENTS
+        </h1>
+        <br>
 
-    <p class =" pp-modum38"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius mod tempor incididunt.</p> 
- </div>
- </div>
+
+        <p class=" pp-module-54"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius mod tempor incididunt.</p>
+    </div>
+</div>
