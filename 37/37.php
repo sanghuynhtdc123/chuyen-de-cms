@@ -24,6 +24,8 @@ $less->compileFile('less/37.less', 'css/37.css');
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/37.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.1/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
 
         
         <?php

@@ -11,41 +11,41 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="module-4">
-    <div class="module-4__row">
-        <div class="module-4__row-item">
-            <div class="module-4__row-item-images">
+<div class="module-42">
+    <div class="module-42__row">
+        <div class="module-42__row-item">
+            <div class="module-42__row-item-images">
             
-            <h3 class="module-4__row-item-heading">SURFING LESSONS </h3>
-                <img id="image" src="./images/service-img-1.jpg" alt="The-image-has-2-men-surfing-on-the-sea" class="module-4__row-item-img">
-                <div class="module-4__row-item-anchor">
-                <a href="#" class="module-4__row-item-link"></a>
+            <h3 class="module-42__row-item-heading">SURFING LESSONS </h3>
+                <img id="image" src="./images/service-img-1.jpg" alt="The-image-has-2-men-surfing-on-the-sea" class="module-42__row-item-img">
+                <div class="module-42__row-item-anchor">
+                <a href="#" class="module-42__row-item-link"></a>
                 </div>
             </div>       
         </div>
-        <div class="module-4__row-item">
-            <div class="module-4__row-item-content">
-                <h3 class="module-4__row-item-heading">SURFERS PARADISE </h3>
-                <span class="module-4__row-item-desc">Ornatus eleifend, assum quando tollit his id. Pris mid a nimal mel no. Eu simul el a boraret qui, est de mo cri tum. Totam rem aperiam, ea que isa quae.</span>
-                <div class="module-4__row-item-weather">
+        <div class="module-42__row-item">
+            <div class="module-42__row-item-content">
+                <h3 class="module-42__row-item-heading">SURFERS PARADISE </h3>
+                <span class="module-42__row-item-desc">Ornatus eleifend, assum quando tollit his id. Pris mid a nimal mel no. Eu simul el a boraret qui, est de mo cri tum. Totam rem aperiam, ea que isa quae.</span>
+                <div class="module-42__row-item-weather">
                 <p class="boderexam1">SURF BOARD RENT: </p>
                 <div class="anh">$45/ hour</div>
                 </div> 
 
-                <div class="module-4__row-item-weather">
+                <div class="module-42__row-item-weather">
                 <p class="boderexam1">EQUIPMENT STORAGE:</p>
                 <div class="anh1">$50/ month</div>
                 </div>
 
-                <div class="module-4__row-item-weather">
+                <div class="module-42__row-item-weather">
                 <p class="boderexam1">PRIVATE LESSONS: </p>
                 <div class="anh">n$100/ hour</div>
                 </div>
-                <div class="module-4__row-item-weather">
+                <div class="module-42-item-weather">
                 <p class="boderexam1">GROUP LESSONS: </p>
                 <div class="anh">$60/ hour</div>
                 </div>
-                <span class="module-4__row-item-btn">
+                <span class="module-42__row-item-btn">
                 <div class="type-49">
                   <div class="row three-part">
                      <div class="col-lg-4 col-md-12">

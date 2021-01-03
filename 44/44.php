@@ -13,7 +13,7 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/4.less', 'css/4.css');
+$less->compileFile('less/44.less', 'css/44.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +22,7 @@ $less->compileFile('less/4.less', 'css/4.css');
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="<?php echo $url_path ?>/css/4.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/44.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.1/css/all.min.css">
 
         
@@ -31,11 +31,11 @@ $less->compileFile('less/4.less', 'css/4.css');
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/4.less', 'css/4.css');
+        $less->compileFile('less/44.less', 'css/44.css');
         ?>
     </head>
     <body >
-    <?php include './4-content.php'; ?>
-    <script src="../4/js/script.js"></script>
+    <?php include './44-content.php'; ?>
+    <script src="../44/js/script.js"></script>
     </body>
 </html>
