@@ -29,7 +29,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <!DOCTYPE html>
 
                 <div class="container">
-                    <input type="email" placeholder=" Email*" name="email" required>
+                    <input type="text" placeholder=" Email*" name="email" required>
 
                     <input type="text" placeholder="Phone*" name="phone" required>
 
