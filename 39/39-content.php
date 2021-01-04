@@ -11,10 +11,10 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="module-4">
-     <div class="module-4__row-item-content">
-                <div class="module-4__row-item-weather">
-                <p class="boderexam1">SURFING</p>
+<div class="module-39">
+     <div class="module-39__row-item-content">
+                <div class="module-39__row-item-weather">
+                <p class="boder_exam1">SURFING</p>
                 <div class="anh1">Home / Find Adventure / Surfing</div>
                 </div>
             </div>       

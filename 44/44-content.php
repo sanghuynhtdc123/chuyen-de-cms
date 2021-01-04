@@ -11,59 +11,8 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="module-4">
-    <div class="module-4__row">
-        <div class="module-4__row-item modul-1">
-            <div class="module-4__row-item-images">
-                <img id="image" src="./images/h1-img-1.jpg" alt="The-image-has-2-men-surfing-on-the-sea" class="module-4__row-item-img module-4__row-item-img--scale">
-            </div>
-            <div class="module-4__row-item-content">
-                <div class="module-4__row-item-heading">PRIVATE SURF LESSONS</div>
-                <span class="module-4__row-item-price">11.50$</span>
-                <span class="module-4__row-item-date">2 DAYS (12HS.)</span>
-            </div>
-            <div class="module-4__row-item-anchor">
-                <a href="#" class="module-4__row-item-link"></a>
-            </div>
-        </div>
-        <div class="module-4__row-item">
-            <div class="module-4__row-item-images">
-                <img src="./images/h1-img-2.jpg" alt="The-image-has-1-girl-taking-photos-with-surf-board" class="module-4__row-item-img">
-            </div>
-            <div class="module-4__row-item-content">
-                <div class="module-4__row-item-heading">PRO SURFING CLASSES</div>
-                <span class="module-4__row-item-price">15.50$</span>
-                <span class="module-4__row-item-date">3 DAYS (18HS.)</span>
-            </div>
-            <div class="module-4__row-item-anchor">
-                <a href="#" class="module-4__row-item-link"></a>
-            </div>           
-        </div>
-        <div class="module-4__row-item">
-            <div class="module-4__row-item-images">
-                <img src="./images/h1-img-3.jpg" alt="a-man-rowing-in-the-sea" class="module-4__row-item-img">
-            </div>
-            <div class="module-4__row-item-content">
-                <div class="module-4__row-item-heading">TAKE TIME TO PADDLE</div>
-                <span class="module-4__row-item-price">13.50$</span>
-                <span class="module-4__row-item-date">X DAYS (6HS.)</span>
-            </div>
-            <div class="module-4__row-item-anchor">
-                <a href="#" class="module-4__row-item-link"></a>
-            </div>
-        </div>
-        <div class="module-4__row-item">
-            <div class="module-4__row-item-images">
-                <img src="./images/h1-img-4.jpg" alt="sunset-sea-image" class="module-4__row-item-img">
-            </div>
-            <div class="module-4__row-item-content">
-                <div class="module-4__row-item-heading">SAIL AWAY WITH US</div>
-                <span class="module-4__row-item-price">13.50$</span>
-                <span class="module-4__row-item-date">7 DAYS (VACATION)</span>
-            </div>
-            <div class="module-4__row-item-anchor">
-                <a href="#" class="module-4__row-item-link"></a>
-            </div>
-        </div>
+<div class="module-44">
+    <div id="map" style="width:822px;height:437px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105320.01911103714!2d148.1544339353085!3d-34.42038918794647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b19e5cd98b51cb7%3A0x40609b49043f050!2sWombat%20New%20South%20Wales%202587%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1609743403721!5m2!1svi!2s" width="822" height="437" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
 </div>

@@ -11,7 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<div class="module_38">
+<div class="module_37">
     <div class="octopus">
         <h2 class="octopus_text">get ready</h2>
         <h1 class="octopus_text2">FOR WAVE THRILLS!</h1>

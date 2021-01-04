@@ -13,30 +13,30 @@ $url_path = str_replace('\\', '/', $url_path);
 ?>
 
 <h2 class="our_services">OUR SERVICES</h2>
-<div class="module-2">
-    <ul class="module-2__list module-2__list--first">
-        <li class="module-2__list-item module-2__list-item--changeColor">
-            <ul class="module-2__list-menu">
-                <li class="module-2__list-menu-item">
-                    <a href="" class="module-2__list-menu-link module-2__list-menu-link--color">Surfing</a>
+<div class="module-41">
+    <ul class="module-41__list module-41__list--first">
+        <li class="module-41__list-item module-41__list-item--changeColor">
+            <ul class="module-41__list-menu">
+                <li class="module-41__list-menu-item">
+                    <a href="" class="module-41__list-menu-link module-41__list-menu-link--color">Surfing</a>
                 </li>
-                <li class="module-2__list-menu-item">
-                    <a href="" class="module-2__list-menu-link">Rent a Boat</a>
+                <li class="module-41__list-menu-item">
+                    <a href="" class="module-41__list-menu-link">Rent a Boat</a>
                 </li>
-                <li class="module-2__list-menu-item">
-                    <a href="" class="module-2__list-menu-link">Scuba Diving</a>
+                <li class="module-41__list-menu-item">
+                    <a href="" class="module-41__list-menu-link">Scuba Diving</a>
                 </li>
-                <li class="module-2__list-menu-item">
-                    <a href="" class="module-2__list-menu-link"> Canoeing</a>
+                <li class="module-41__list-menu-item">
+                    <a href="" class="module-41__list-menu-link"> Canoeing</a>
                 </li>
-                <li class="module-2__list-menu-item">
-                    <a href="" class="module-2__list-menu-link"> Our Camps</a>
+                <li class="module-41__list-menu-item">
+                    <a href="" class="module-41__list-menu-link"> Our Camps</a>
                 </li>
-                <li class="module-2__list-menu-item">
-                    <a href="" class="module-2__list-menu-link">Paddle</a>
+                <li class="module-41__list-menu-item">
+                    <a href="" class="module-41__list-menu-link">Paddle</a>
                 </li>
-                <li class="module-2__list-menu-item">
-                    <a href="" class="module-2__list-menu-link">Salling</a>
+                <li class="module-41__list-menu-item">
+                    <a href="" class="module-41__list-menu-link">Salling</a>
                 </li>
             </ul>
         </li>

@@ -28,21 +28,21 @@ $url_path = str_replace('\\', '/', $url_path);
                 <h3 class="module-42__row-item-heading">SURFERS PARADISE </h3>
                 <span class="module-42__row-item-desc">Ornatus eleifend, assum quando tollit his id. Pris mid a nimal mel no. Eu simul el a boraret qui, est de mo cri tum. Totam rem aperiam, ea que isa quae.</span>
                 <div class="module-42__row-item-weather">
-                <p class="boderexam1">SURF BOARD RENT: </p>
+                <p class="boder_exam1">SURF BOARD RENT: </p>
                 <div class="anh">$45/ hour</div>
                 </div> 
 
                 <div class="module-42__row-item-weather">
-                <p class="boderexam1">EQUIPMENT STORAGE:</p>
+                <p class="boder_exam1">EQUIPMENT STORAGE:</p>
                 <div class="anh1">$50/ month</div>
                 </div>
 
                 <div class="module-42__row-item-weather">
-                <p class="boderexam1">PRIVATE LESSONS: </p>
+                <p class="boder_exam1">PRIVATE LESSONS: </p>
                 <div class="anh">n$100/ hour</div>
                 </div>
                 <div class="module-42-item-weather">
-                <p class="boderexam1">GROUP LESSONS: </p>
+                <p class="boder_exam1">GROUP LESSONS: </p>
                 <div class="anh">$60/ hour</div>
                 </div>
                 <span class="module-42__row-item-btn">

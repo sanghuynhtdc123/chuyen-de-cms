@@ -5,27 +5,64 @@
   --blackColor: #000;
   --grayColor: #858585;
 }
-.modum38 {
+body {
+  margin: 0;
+  padding: 0;
+}
+.module_45 {
   height: 400px;
+  width: 100%;
   background-image: url(../images/p2-img-1.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.modum38 .p-modum38 {
-  margin-top: 20px;
+.module_45 .module-45 {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 400px;
+}
+.module_45 .p-module-45 {
   color: white;
-  font-size: 20px;
-  margin-top: -8px;
+  font-size: 1.45em;
 }
-.modum38 .pp-modum38 {
+.module_45 .pp-module-45 {
   color: white;
-  font-size: 20px;
-  margin-top: -24px;
+  font-size: 1.45em;
 }
-.modum38 .h-modum38 {
+.module_45 .text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+}
+.module_45 .text .h-module-45 {
   color: white;
-  font-size: 52px;
+  font-size: 2.6em;
+  margin: 0;
+  padding: 0;
 }
-.modum38 .modum-38 {
-  padding-top: 121px;
-  padding-left: 100px;
+@media (min-width: 740px) and (max-width: 1184px) {
+  .module-45 .pp-module-45 {
+    color: white;
+    font-size: 15px;
+  }
+  .module-45 .h-module-45 {
+    color: white;
+    font-size: 40px;
+  }
+  .module-45 .p-module-45 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 739px) {
+  .module-45 .pp-module-45 {
+    color: white;
+    font-size: 20px;
+    margin-top: -24px;
+  }
+  .module-45 .h-module-45 {
+    color: white;
+    font-size: 52px;
+  }
 }
