@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+:root {
+    --blueColor: #0de9df;
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --grayColor: #858585;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 51.5%;
+    box-sizing: border-box;
+    width: 98vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes growUp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .module-2 {
+        height: 70px;
+        &__title {
+            display: none;
+        }
+        .module-2 &__list {
+            display: none;
+        }
+        .module-2 &__search {
+            display: none;
+        }
+    }
+    
+}
+.baner-anh {
+    font-size: 17px;
+    padding-left: 150px;
+   .modum-h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 173px;
+    font-family: 'Alex Brush', cursive;
+   }
+   .modum-p1{
+    margin-top: -16px;
+    font-size: 35px;
+    color: white;
+   }
+   .modum-p2{
+       color: white;
+   }
+   .modum-p22{ color: white;}
+    .banner-bnt{
+        margin-top: 37px;
+    a{
+        width: 216px;
+        height: 50px;
+       
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        border: .5px solid white;
+    }
+    .anh{
+        padding-top: 12px;
+      text-align: center;
+    }
+    }   
+}
+.module-2 {
+    width: 101%;
+    height: 545px;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #000;
+    background-image: url(../images/download.jfif);
+}
+
+
+
