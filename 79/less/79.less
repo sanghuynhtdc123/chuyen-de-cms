@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+:root {
+  --blueColor: #0de9df;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #858585;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.module_79 {
+  max-width: 270px;
+  height: 610px;
+  margin-left: 30px;
+  p 
+  {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .post {
+    .row {
+      border-bottom: 0.25px solid rgb(204, 197, 197);
+      margin-top: 30px;
+      .col-md-5 {
+        //background-color: blue;
+        //width: 100px;
+        img {
+          width: 80px;
+          height: 80px;
+          
+        }
+      }
+
+      .col-md-7 {
+        a 
+        {
+          color: var(--blueColor);
+        }
+        .heading {
+          margin-bottom: 20px;
+          display: inline-block;
+          color: var(--blackColor);
+          font-weight: bold;
+        }
+
+        .heading:hover 
+        {
+          color: var(--blueColor);
+          text-decoration:none;
+        }
+        a:hover 
+        {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1024px) {
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .module_79 
+  {
+    max-width: 80%;
+    //background-color: red;
+    .post 
+    {
+      //width:100%;
+      //background-color:red;
+      .row 
+      {
+        //margin-top: 10px;
+        .col-md-5 
+        {
+          //background-color: red;
+          width: 120px;
+        }
+        
+        .col-md-7 
+        {
+          //background-color: blue;
+          .heading 
+          {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            display:inline-block;
+          }
+        }    
+      }
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 739px) and (min-width: 550px) 
+{
+  .module_79 
+  {
+    max-width: 80%;
+    //background-color: red;
+    .post 
+    {
+      //width:100%;
+      //background-color:red;
+      .row 
+      {
+        //border-bottom: none;
+        margin-top: 10px;
+        .col-md-5 
+        {
+          //background-color: red;
+          width: 120px;
+        } 
+        
+        .col-md-7 
+        {
+          //background-color: blue;
+          .heading 
+          {
+            margin-top: 20px;
+            display:inline-block;
+          }
+        }    
+      }
+    }
+  }
+}
+
+@media (max-width: 549px) 
+{
+  .module_79 
+  {
+    max-width: 80%;
+    //background-color: red;
+    .post 
+    {
+      //width:100%;
+      //background-color:red;
+      .row 
+      {
+        //border-bottom: none;
+        margin-top: 10px;
+        .col-md-5 
+        {
+          //background-color: red;
+          width: 120px;
+        }  
+        
+        .col-md-7 
+        {
+          //background-color: blue;
+          .heading 
+          {
+            margin-top: 20px;
+            display:inline-block;
+          }
+        }    
+      }
+    }
+  }
+}

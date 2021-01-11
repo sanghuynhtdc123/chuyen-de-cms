@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+:root {
+  --blueColor: #0de9df;
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #858585;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.module_80 {
+  height: 720px;
+  max-width: 270px;
+  margin-left: 30px;
+}
+.module_80 .images .row .one_img {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.module_80 .images .row .one_img img {
+  width: 252px;
+  height: 203px;
+}
+.module_80 .images .row .two_img img {
+  width: 252px;
+  height: 385px;
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  .module_80 {
+    max-width: 80%;
+    margin-left: 100px;
+  }
+  .module_80 .images .row .one_img {
+    margin-bottom: 50px;
+    margin-left: 15px;
+    width: 96%;
+  }
+  .module_80 .images .row .one_img img {
+    width: 100%;
+    height: auto;
+  }
+  .module_80 .images .row .two_img {
+    margin-left: 15px;
+    width: 96%;
+  }
+  .module_80 .images .row .two_img img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 739px) and (min-width: 550px) {
+  .module_80 {
+    max-width: 80%;
+    margin-left: 55px;
+  }
+  .module_80 .images .row .one_img {
+    margin-bottom: 50px;
+    margin-left: 15px;
+    width: 96%;
+  }
+  .module_80 .images .row .one_img img {
+    width: 100%;
+    height: auto;
+  }
+  .module_80 .images .row .two_img {
+    margin-left: 15px;
+    width: 96%;
+  }
+  .module_80 .images .row .two_img img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 549px) {
+  .module_80 {
+    max-width: 80%;
+    margin-left: 45px;
+  }
+  .module_80 .images .row .one_img {
+    margin-bottom: 50px;
+    margin-left: 15px;
+    width: 96%;
+  }
+  .module_80 .images .row .one_img img {
+    width: 100%;
+    height: auto;
+  }
+  .module_80 .images .row .two_img {
+    margin-left: 15px;
+    width: 96%;
+  }
+  .module_80 .images .row .two_img img {
+    width: 100%;
+    height: auto;
+  }
+}
